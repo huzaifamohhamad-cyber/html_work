@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.querySelector("main input");
     const header = document.querySelector("header");
 
-    /* ================= SEARCH FUNCTION ================= */
+    
     searchInput.addEventListener("keypress", function (event) {
         if (event.key === "Enter") {
             let value = searchInput.value.trim();
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    /* ================= HEADER SCROLL EFFECT ================= */
+   
     window.addEventListener("scroll", function () {
         if (window.scrollY > 50) {
             header.style.backgroundColor = "#e23744";
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    /* ================= CATEGORY CLICK ================= */
+    
     const categories = document.querySelectorAll(".category-card");
 
     categories.forEach(category => {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    /* ================= RESTAURANT CLICK ================= */
+   
     const restaurants = document.querySelectorAll(".restaurant-card");
 
     restaurants.forEach(restaurant => {
@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    /* ================= NEWSLETTER ================= */
     const subscribeBtn = document.getElementById("subscribeBtn");
     const emailInput = document.getElementById("emailInput");
 
