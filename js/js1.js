@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    console.log("Zomato Clone Loaded 🔥");
+    console.log("Zomato Clone Loaded ");
 
     const searchInput = document.querySelector("main input");
     const header = document.querySelector("header");
